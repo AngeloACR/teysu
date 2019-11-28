@@ -86,10 +86,10 @@ define( 'WP_DEBUG', false );
 define( 'WP_DEBUG_DISPLAY', false );
 
 //$localIp = $_SERVER['SERVER_ADDR'];
-$localIp = strval(getenv('MYIP'));
-$site = "http://".$localIp;
+/* $localIp = strval(getenv('MYIP'));
+$site = $localIp."/teysu";
 define('WP_HOME',$site);
-define('WP_SITEURL',$site);
+define('WP_SITEURL',$site); */
 
 /* That's all, stop editing! Happy publishing. */
 

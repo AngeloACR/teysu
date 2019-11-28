@@ -6,7 +6,7 @@ INSTRUCTIONS TO HAVE A WORKING PACKAGE
 
 https://www.apachefriends.org/xampp-files/7.1.33/xampp-linux-x64-7.1.33-0-installer.run
 
-- Put the file inside path_to_installation_folder/apache, where path_to_installatiom_folder is the folder
+- Put the file inside path_to_installation_folder/apache, where path_to_installation_folder is the folder
 where these files are stored, it'll probably be teysu/apache
 
 - Get a fresh copy of Teysu wp-content folder and put it inside path_to_installation_folder/wordpress
