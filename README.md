@@ -1,6 +1,6 @@
 #teysu
 
-INSTRUCTIONS TO HAVE A WORKING PACKAGE
+INSTRUCTIONS TO INSTALL A WORKING PACKAGE
 
 - Download latest Xampp distribution for ubuntu:
 
@@ -38,3 +38,14 @@ your web browser and go to "your_ip/teyse", where your_ip is the IP address of y
 You can get your IP address by running the following command in terminal:
 
 echo $MYIP
+
+/***********************************************************************************************************/
+
+UNINSTALL INSTRUCTIONS
+
+Inside the package folder, run the following command:
+
+chmod +x uninstall.sh
+./uninstall.sh
+
+This will uninstall all your teysu setup
