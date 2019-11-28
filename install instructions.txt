@@ -9,7 +9,11 @@ https://www.apachefriends.org/xampp-files/7.1.33/xampp-linux-x64-7.1.33-0-instal
 - Put the file inside path_to_installation_folder/apache, where path_to_installation_folder is the folder
 where these files are stored, it'll probably be teysu/apache
 
-- Get a fresh copy of wordpress, and put it inside path_to_installation_folder/wordpress/wordpress
+- Get a fresh copy of wordpress, which you can get at:
+
+https://wordpress.org/latest.zip
+
+Unzip it and put the folder inside of path_to_installation_folder/wordpress, 
 
 - Get a fresh copy of Teysu wp-content folder and put it inside path_to_installation_folder/wordpress
 
