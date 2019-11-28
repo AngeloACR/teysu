@@ -32,3 +32,6 @@ sudo find /opt/lampp/htdocs/teysu -type f -exec chmod 644 {} \;
 echo "Adding db data"
 sudo /opt/lampp/bin/mysql --user=root --password="" -e "CREATE DATABASE IF NOT EXISTS teysu"
 sudo /opt/lampp/bin/mysql --user=root --password="" --database=teysu < teysu.sql
+
+echo "Setting network"
+sudo /opt/lampp/bin/mysql --user=root --password="" -e "CREATE DATABASE IF NOT EXISTS teysu"
