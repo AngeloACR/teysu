@@ -1,12 +1,12 @@
 #teysu
 
-INSTRUCTIONS TO HAVE A WORKING PACKAGE
+INSTRUCTIONS TO INSTALL A WORKING PACKAGE
 
 - Download latest Xampp distribution for ubuntu:
 
 https://www.apachefriends.org/xampp-files/7.1.33/xampp-linux-x64-7.1.33-0-installer.run
 
-- Put the file inside path_to_installation_folder/apache, where path_to_installatiom_folder is the folder
+- Put the file inside path_to_installation_folder/apache, where path_to_installation_folder is the folder
 where these files are stored, it'll probably be teysu/apache
 
 - Get a fresh copy of Teysu wp-content folder and put it inside path_to_installation_folder/wordpress
@@ -29,7 +29,23 @@ chmod +x install.sh
     - Setup of Teysu Database
 
 - At the end, you will have a Teysu working environment which you can access from your pc. To do that, open
-your web browser and go to "localhost". You will see the Teysu login page. To log in and start your Teysu experience, enter the following credentials:
+your web browser and go to "your_ip/teyse", where your_ip is the IP address of your machine. When you You will see the Teysu login page. To log in and start your Teysu experience, enter the following credentials:
+
 
     Username: Teysu
     Password: 2019Teysu9102
+
+You can get your IP address by running the following command in terminal:
+
+echo $MYIP
+
+/***********************************************************************************************************/
+
+UNINSTALL INSTRUCTIONS
+
+Inside the package folder, run the following command:
+
+chmod +x uninstall.sh
+./uninstall.sh
+
+This will uninstall all your teysu setup
