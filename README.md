@@ -4,7 +4,7 @@ INSTRUCTIONS TO INSTALL A WORKING PACKAGE
 
 - Download latest Xampp distribution for ubuntu:
 
-https://www.apachefriends.org/xampp-files/7.1.33/xampp-linux-x64-7.1.33-0-installer.run
+https://www.apachefriends.org/xampp-files/7.3.11/xampp-linux-x64-7.3.11-0-installer.run
 
 - Put the file inside path_to_installation_folder/apache, where path_to_installation_folder is the folder
 where these files are stored, it'll probably be teysu/apache
