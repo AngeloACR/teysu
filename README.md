@@ -35,7 +35,7 @@ chmod +x install.sh
     - Setup of Teysu Database
 
 - At the end, you will have a Teysu working environment which you can access from your pc. To do that, open
-your web browser and go to "your_ip/teyse", where your_ip is the IP address of your machine. When you You will see the Teysu login page. To log in and start your Teysu experience, enter the following credentials:
+your web browser and go to "your_ip/teysu", where your_ip is the IP address of your machine. When you You will see the Teysu login page. To log in and start your Teysu experience, enter the following credentials:
 
 
     Username: Teysu
